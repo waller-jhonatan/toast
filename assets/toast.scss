@@ -30,6 +30,7 @@ $font-size: 12px;
   transition: opacity 150ms $transition-default;
   min-width: var(--ctt-toast-min-width);
   max-width: var(--ctt-toast-max-width);
+  pointer-events: none;
 
   &__icon {
     display: flex;
